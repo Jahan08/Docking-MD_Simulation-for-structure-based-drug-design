@@ -33,7 +33,7 @@ Protein Structure Preparation
 * Experimental Design
 
 
-#### Docking (AutoDock, AutoDock Vina) #####
+#### Docking (AutoDock, AutoDock Vina, schrodinger uses Glide theory) #####
 
 * Assume receptor is rigid
 * Assumes ligand is flexible
