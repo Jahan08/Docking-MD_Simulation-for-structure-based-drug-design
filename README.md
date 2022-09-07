@@ -4,18 +4,20 @@ Protein Structure Preparation
     
     Fix common problems
         
-        -Protonation
+        - Protonation
         
-        -Missing side chains
+        - Missing side chains
         
-        -Missing Loops
+        - Missing Loops
     
     Remove unwanted molecules
     
-        -Counterions, artifacts, of crystallography, waters
+        - Counterions, artifacts, of crystallography, waters
     
     Optimize your Strcuture
     
-        -Hydrogen-bond Otimization
+        - Hydrogen-bond Otimization
         
-        -
+        - Remove water
+        
+        - Restrained minimization
