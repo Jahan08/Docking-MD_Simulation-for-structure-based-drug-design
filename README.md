@@ -33,10 +33,11 @@ Protein Structure Preparation
 * Experimental Design
 
 
-Docking (AutoDock, AutoDock Vina)
+#### Docking (AutoDock, AutoDock Vina) #####
 
 * Assume receptor is rigid
 * Assumes ligand is flexible
+
 Ensemble of receptor-ligand poses produced by docking, which can be  ranked by score. More negative score is better. 
 
 Scoring Functions:
@@ -45,5 +46,5 @@ Scoring Functions:
 * are optimized to give good enrichment
     * separates "good" ideas from "bad"
     * Limit the number of ligands to be investigated further
-    *
+    
     
