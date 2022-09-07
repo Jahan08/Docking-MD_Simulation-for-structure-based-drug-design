@@ -48,3 +48,12 @@ Scoring Functions:
     * Limit the number of ligands to be investigated further
     
     
+#### WorkFlow for Virtual Screening: #####
+
+Compund Library Preparation (Obtain Compound Library -> Filter Library -> LigPrep Library).   ''''   -> Virtual Screening -> Post Processing 
+Receptor Grid Preparation (Prepare Protein -> Generate Grids -> Test Grids)                   ''''                                 
+    
+Post Processing -> Compile Virtaul Screening Results -> First Cut -> Secondary Scoring -> Second Cut -> Visual Inspection/Voting 
+-> Final Cut -> Generate Buy List    
+    
+                            
