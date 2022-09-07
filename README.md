@@ -31,4 +31,19 @@ Protein Structure Preparation
 * Conformantional State
 
 * Experimental Design
+
+
+Docking (AutoDock, AutoDock Vina)
+
+* Assume receptor is rigid
+* Assumes ligand is flexible
+Ensemble of receptor-ligand poses produced by docking, which can be  ranked by score. More negative score is better. 
+
+Scoring Functions:
+* do not correlate with IC50, EC50, Kd etc
+* do not provide a rank-ordering of ligands
+* are optimized to give good enrichment
+    * separates "good" ideas from "bad"
+    * Limit the number of ligands to be investigated further
+    *
     
