@@ -33,7 +33,7 @@ Protein Structure Preparation
 * Experimental Design
 
 
-#### Docking (AutoDock, AutoDock Vina) #####
+#### DOCKING (AutoDock, AutoDock Vina) #####
 
 * Assume receptor is rigid
 * Assumes ligand is flexible
