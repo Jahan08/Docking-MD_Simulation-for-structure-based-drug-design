@@ -23,3 +23,12 @@ Protein Structure Preparation
         - Remove water
         
         - Restrained minimization
+
+##### Good CADD starts with good science. Have a good understanding about the following: #####
+
+* Srcuture Quality
+
+* Conformantional State
+
+* Experimental Design
+    
