@@ -1,14 +1,16 @@
-Structure-Based-Drug-Design
+Structure Based Drug Design and Struture Based Virtual Screening
 
-Protein Structure Preparation
+Here we are going to use open source software to do all the works. These following works can be done using commercial softwares i.e. Schrodinger suites (Maestro)
+
+Protein Structure Preparation 
     
     Fix common problems
+    
+        -Tautomer (Molprobity), pH (Propka), protonation (Avogadro, openbabel, AutoDock)
         
-        - Protonation
+        - Missing side chains (SwissPDB Viewer)
         
-        - Missing side chains
-        
-        - Missing Loops
+        - Missing Loops (SwissPDB Viewer)
     
     Remove unwanted molecules
     
