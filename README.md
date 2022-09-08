@@ -1,5 +1,7 @@
 # Structure Based Drug Design and Struture Based Virtual Screening
 
+Structure-based drug design (SBDD) is the design and optimisation of a hit or lead compound using structural information of target protein obtained from either X-ray crystallography, cryo-EM or NMR
+
 Here we are going to use open source software to do all the works. These following works can be done using commercial softwares i.e. Schrodinger suites (Maestro)
 
 # Good CADD starts with good science. Have a good understanding about the following: #####
