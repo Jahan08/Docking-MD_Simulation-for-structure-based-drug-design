@@ -1,14 +1,24 @@
-Structure Based Drug Design and Struture Based Virtual Screening
+# Structure Based Drug Design and Struture Based Virtual Screening
 
 Here we are going to use open source software to do all the works. These following works can be done using commercial softwares i.e. Schrodinger suites (Maestro)
 
-##### Good CADD starts with good science. Have a good understanding about the following: #####
+# Good CADD starts with good science. Have a good understanding about the following: #####
 
-* Srcuture Quality
+* Sructure Quality
 
 * Conformantional State
 
 * Experimental Design
+
+# Fixing protein structure
+
+Experimeantally found 3D structures of proteins generally have --
+
+* non-protein components
+* Missing side chain
+* Missing residues
+
+Modeller or SwissPDB Viewer can be used to fix these issues.
 
 
 #### DOCKING (AutoDock, AutoDock Vina) #####
