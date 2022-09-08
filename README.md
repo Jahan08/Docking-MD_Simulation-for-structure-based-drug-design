@@ -22,6 +22,14 @@ Experimeantally found 3D structures of proteins generally have --
 
 Modeller or SwissPDB Viewer can be used to fix these issues.
 
+      # Splitting the PDB in protein, ligand and water molecules
+
+         First, we will split the PDB in 3 different groups: protein, GWS ligand and water molecules as we need to treat them                   separately:
+
+         grep -v -e "GWS" -e "DMS" -e "CONECT" -e "HOH" 5r84.pdb >  protein.pdb
+         grep "GWS" 5r84.pdb > GWS.pdb
+         grep "HOH" 5r84.pdb > waters.pdb
+
 
 # DOCKING (AutoDock, AutoDock Vina) #####
 
