@@ -21,7 +21,7 @@ Experimeantally found 3D structures of proteins generally have --
 Modeller or SwissPDB Viewer can be used to fix these issues.
 
 
-#### DOCKING (AutoDock, AutoDock Vina) #####
+# DOCKING (AutoDock, AutoDock Vina) #####
 
 * Assume receptor is rigid
 * Assumes ligand is flexible
@@ -36,7 +36,7 @@ Scoring Functions:
     * Limit the number of ligands to be investigated further
     
     
-#### WorkFlow for Virtual Screening: #####
+# WorkFlow for Virtual Screening:
 
 Compund Library Preparation (Obtain Compound Library -> Filter Library -> LigPrep Library).   ''''   -> Virtual Screening -> Post Processing 
 Receptor Grid Preparation (Prepare Protein -> Generate Grids -> Test Grids)                   ''''                                 
