@@ -49,7 +49,7 @@ Scoring Functions:
 
 Compund Library Preparation (Obtain Compound Library -> Filter Library -> LigPrep Library).   ''''   
                                                                                                         
-                                                                                               -> Virtual Screening -> Post Processing 
+                                                                                -> Virtual Screening -> Post Processing 
 Receptor Grid Preparation (Prepare Protein -> Generate Grids -> Test Grids)                   ''''                                 
     
 Post Processing -> Compile Virtaul Screening Results -> First Cut -> Secondary Scoring -> Second Cut -> Visual Inspection/Voting -> Final Cut -> Generate Buy List    
