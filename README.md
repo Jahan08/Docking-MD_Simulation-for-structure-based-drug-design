@@ -26,6 +26,7 @@ Scoring Functions:
     * separates "good" ideas from "bad"
     * Limit the number of ligands to be investigated further
     
+In the uplaoded jupyter notebook (Docking_with_AutoDock.ipynb) I have shown how to use AutoDock to dock single ligand to our target protein. in the following I will show how to use Autodock vina to dock a ligand library:    
     
 # WorkFlow for Virtual Screening:
 
