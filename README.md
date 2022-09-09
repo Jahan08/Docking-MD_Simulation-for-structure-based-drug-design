@@ -4,7 +4,7 @@ Structure-based drug design (SBDD) is the design and optimisation of a hit or le
 
 Here we are going to use open source software to do all the works. Which can be done using commercial softwares i.e. Schrodinger suites (Maestro)
 
-# Good CADD starts with good science. Have a good understanding about the following: #####
+# Good CADD starts with good science. Have a good understanding about the following: 
 
 * Sructure Quality
 
@@ -28,13 +28,3 @@ Scoring Functions:
     
 In the uplaoded jupyter notebook (Docking_with_autodock.ipynb) I have shown how to use AutoDock to dock single ligand to our target protein. in the following I will show how to use Autodock vina to dock a ligand library:    
     
-# WorkFlow for Virtual Screening:
-
-Compund Library Preparation (Obtain Compound Library -> Filter Library -> LigPrep Library).   ''''   
-                                                                                                        
-                                                                                -> Virtual Screening -> Post Processing 
-Receptor Grid Preparation (Prepare Protein -> Generate Grids -> Test Grids)                   ''''                                 
-    
-Post Processing -> Compile Virtaul Screening Results -> First Cut -> Secondary Scoring -> Second Cut -> Visual Inspection/Voting -> Final Cut -> Generate Buy List    
-    
-                            
