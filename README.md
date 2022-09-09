@@ -12,19 +12,6 @@ Here we are going to use open source software to do all the works. Which can be 
 
 * Experimental Design
 
-# Fixing protein structure
-
-Experimeantally found 3D structures of proteins generally have --
-
-* non-protein components
-* Missing side chain
-* Missing residues
-
-Modeller or SwissPDB Viewer can be used to fix these issues.
-
-      # here I am gonna show how to use modeller to correct the protein structureby using three python script:
-
-
 # DOCKING (AutoDock, AutoDock Vina) #####
 
 * Assume receptor is rigid
