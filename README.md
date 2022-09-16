@@ -21,7 +21,27 @@ Here we are going to use open source software to do all the works. Which can be 
 
 * Experimental Design
 
-# DOCKING (AutoDock, AutoDock Vina) #####
+
+# Docking Tutorial Udemy
+
+## Docking Types
+   * Rigid (both protein and ligand)
+   * Flexible (both protein and ligand)
+   * Constrained (protein is constrained)
+   
+## Algorithm types 
+   * Sampling Algorithm - Samples the conformations of ligand in the binding site/s
+   * Scoring Algorithm - Measures the binding energy of all poses of the ligand (only accounts for non-bonded interactions(electrostatic interactions, Hydrogen Bonds, Salt bridges, van der Waals interactions))
+   
+## There are six sampling algorithms
+   * Shape complementary (PatchDock)
+   * Genetic Sampling Algorithm (AutoDock4)
+   * Force Field algorithm 
+   * Empirical Scoring function
+   * Knowledge based scoring function
+   * Consensus-based scoring function
+
+### During Docking 
 
 * Assume receptor is rigid
 * Assumes ligand is flexible
@@ -35,5 +55,8 @@ Scoring Functions:
     * separates "good" ideas from "bad"
     * Limit the number of ligands to be investigated further
     
+   
+# Virtual Screening with AutoDock Vina
+
 In the uplaoded jupyter notebook (Docking_with_autodock.ipynb) I have shown how to use AutoDock to dock single ligand to our target protein. in the following I will show how to use Autodock vina to dock a ligand library:    
     
