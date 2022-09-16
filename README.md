@@ -22,7 +22,7 @@ Here we are going to use open source software to do all the works. Which can be 
 * Experimental Design
 
 
-# Docking Tutorial Udemy (AutoDock4)
+# Docking Tutorial Udemy (AutoDock4) (seperate file uploaded for this)
 
 ## Docking Types
    * Rigid (both protein and ligand)
@@ -55,7 +55,42 @@ Scoring Functions:
     * separates "good" ideas from "bad"
     * Limit the number of ligands to be investigated further
     
-   
+## Important Steps for Molecular Docking
+
+  #### Step-1 Selection of 3D structure of protein (Download the 3D strcuture from UNIPROT/PDB (X-ray crystallography, NMR, cryo-EM) -> Predict the 3D structure (homology modeling, I-tasser, Alpha-Fold))
+
+### Homology Modeling (Predict 3D structure of protein)
+
+Homology modeling, also known as comparative modeling of protein, refers to constructing an atomic-resolution model of the "target" protein from its amino acid sequence and an experimental three-dimensional structure of a related homologous protein (the "template")
+Homology modeling relies on the identification of one or more known protein structures likely to resemble the structure of the query sequence, and on the production of an alignment that maps residues in the query sequence to residues in the template sequence.
+
+
+### Homology Modelling using Modeller
+
+
+
+Emboss-Needle
+
+I-Tasser
+
+Alpha-fold
+
+Pro-Check
+
+  #### Step-2 Preparation of protein structure for docking (Check protein Structure with Emboss Needle and then repair the structure with Modeller script)
+  
+  The structure we used has ligand with it.We can load .pdb into mgltools, remove water(edit -> delete water), remove unnecessary part(go to protein left side and to the bottom and select them edit -> Deletedelete selected atoms), missing atoms can be checked(edit-misc-missing atom ->repair missing atom), add charges(edit-charge-kollman charges) and after that check charges and any residue mentioned in the list will be selected (equally distributed charges through out the protein), Save(grid -> macromolecule -> select the protein  -> ok -> save the protein as .pdbqt file)
+  
+  #### Step-3 Ligand Preparation 
+  
+  Ligand structure(Can be cocrystallized with the protein, download 3D structure from PubChem, Zinc15, the Cambridge structural database ) or drawing(chemdoodle and saved as .mol file and convert it to 3D structure with open-babel(installed) and iBabel(add the path of open-babel and save ligand as .mol2 file format)—then minimize and optimize the structure in Avogadro—convert the ligand.mol2 to .pdbqt through open-babel for docking)Ligand preparation
+  
+  #### Step-4 Defining Active Sites
+  
+  Blind docking(whole protein surface has been used to find the active sites) or specific docking (particular area would be specified—from literature or prediction of binding site)
+  To find the ligand binding residues of the protein-article or coach server(take 10 hours) ->upload the fasta sequence and protein.pdb structure and provide academic email to find the binding sites residues—specific docking and otherwise blind docking
+
+
 # Virtual Screening with AutoDock Vina
 
 In the uplaoded jupyter notebook (Docking_with_autodock.ipynb) I have shown how to use AutoDock to dock single ligand to our target protein. in the following I will show how to use Autodock vina to dock a ligand library:    
