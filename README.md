@@ -22,7 +22,7 @@ Here we are going to use open source software to do all the works. Which can be 
 * Experimental Design
 
 
-# Docking Tutorial Udemy
+# Docking Tutorial Udemy (AutoDock4)
 
 ## Docking Types
    * Rigid (both protein and ligand)
@@ -41,7 +41,7 @@ Here we are going to use open source software to do all the works. Which can be 
    * Knowledge based scoring function
    * Consensus-based scoring function
 
-### During Docking 
+### Note - Sometimes, MGLTOOLS can show errors, Protein structure downloaded from PDB can show these errors. To get rid of that prepare the protein structure with Modeller first
 
 * Assume receptor is rigid
 * Assumes ligand is flexible
