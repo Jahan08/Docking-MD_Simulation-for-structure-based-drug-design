@@ -65,17 +65,7 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 Homology modeling relies on the identification of one or more known protein structures likely to resemble the structure of the query sequence, and on the production of an alignment that maps residues in the query sequence to residues in the template sequence.
 
 
-### Homology Modelling using Modeller
-
-
-
-Emboss-Needle
-
-I-Tasser
-
-Alpha-fold
-
-Pro-Check
+### Homology Modelling using Modeller (see the attached files)
 
   #### Step-2 Preparation of protein structure for docking (Check protein Structure with Emboss Needle and then repair the structure with Modeller script)
   
