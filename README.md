@@ -133,4 +133,10 @@ Load protein -> Analyze -> macromolecule -> receptor.pdbqt file
 Pressing right directed arrow we can see different conformations
 
 
+## PatchDock (https://bioinfo3d.cs.tau.ac.il/PatchDock/)
+
+* Shape Complementary Docking 
+* Protein and ligand should be in PDB format
+* Output contains Score, Area of ligand-protein interface, ACE (atomic content energy, more the negative better the results), rotational transformation
+
     
