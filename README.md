@@ -89,9 +89,45 @@ Pro-Check
   
   Blind docking(whole protein surface has been used to find the active sites) or specific docking (particular area would be specified—from literature or prediction of binding site)
   To find the ligand binding residues of the protein-article or coach server(take 10 hours) ->upload the fasta sequence and protein.pdb structure and provide academic email to find the binding sites residues—specific docking and otherwise blind docking
+  
+  #### Step-5 Docking protocol setup
+  
+Go to left side receptor click + and will see all the residues where you can select the binding sites residuesafter selecting the binding sites residues select GRID and we change the value in 3 direction of the grid box
 
+In the case of blind docking grid box will cover the whole protein
+
+  ##### Setting parameters for docking (define scoring and sampling algorithm)(autodock or autodock vina is better)
 
 # Virtual Screening with AutoDock Vina
 
-In the uplaoded jupyter notebook (Docking_with_autodock.ipynb) I have shown how to use AutoDock to dock single ligand to our target protein. in the following I will show how to use Autodock vina to dock a ligand library:    
+In the uplaoded jupyter notebook (Docking_with_autodock.ipynb) I have shown how to use AutoDock to dock single ligand to our target protein. in the following I will show how to use Autodock vina to dock a ligand library:   
+
+##### Before conduct docking on vina, we have to prepare configuration file
+Receptor = receptor.pdbqt
+Ligand = ligand.pdbqt
+Out = out.pdbqt
+center_x = X center (from grid box information)
+center_y = Y center (from grid box information)
+center_z = Z center (from grid box information)
+size_x = number of points in x dimension
+size_y = number of points in y dimension
+size_z = number of points in z dimension
+exhaustiveness = 8 (high is good)---save this as conf in the desired folder)
+
+##### use terminal to run vina with following command
+"~/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina.exe"(path of vina executable) --config conf.txt(configuration file) --log log.txt(output file)
+
+##### Note - Copy conf.txt, vina.exe, ligand.pdbqt, protein.pdbqt files into a separate folder
+
+##### Run the following command 
+
+ vina.exe –-config conf.txt –-log log.txt 
+
+##### After running docking on vina we will visualize that on autodock
+Load ligand -> Analyze -> docking -> docking results from autovina -> ouput -> multiple 
+Conformations
+Load protein -> Analyze -> macromolecule -> receptor.pdbqt file
+Pressing right directed arrow we can see different conformations
+
+
     
