@@ -69,7 +69,7 @@ Homology modeling relies on the identification of one or more known protein stru
 
   #### Step-2 Preparation of protein structure for docking (Check protein Structure with Emboss Needle and then repair the structure with Modeller script)
   
-  The structure we used has ligand with it.We can load .pdb into mgltools, remove water(edit -> delete water), remove unnecessary part(go to protein left side and to the bottom and select them edit -> Deletedelete selected atoms), missing atoms can be checked(edit-misc-missing atom ->repair missing atom), add charges(edit-charge-kollman charges) and after that check charges and any residue mentioned in the list will be selected (equally distributed charges through out the protein), Save(grid -> macromolecule -> select the protein  -> ok -> save the protein as .pdbqt file)
+  The structure we used has ligand with it.We can load .pdb into mgltools, remove water(edit -> delete water), remove unnecessary part(go to protein left side and to the bottom and select them edit -> Delete -> delete selected atoms), missing atoms can be checked(edit-misc-missing atom ->repair missing atom), add charges(edit-charge-kollman charges) and after that check charges and any residue mentioned in the list will be selected (equally distributed charges through out the protein), Save(grid -> macromolecule -> select the protein  -> ok -> save the protein as .pdbqt file)
   
   #### Step-3 Ligand Preparation 
   
