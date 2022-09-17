@@ -76,6 +76,9 @@ I-tasser output file have information about:
 * Predicted normalized B-factor -> provides the information about flec=xibility of the residues (0 stands for rigid residue)
 * Provide the multiple templates (look into z-score)
 * Predicted models for proteins (look into C-score)
+* Prediction of Ligand binding sites based on templates used to develop the models
+
+### Alpha-Fold (AI based server) https://alphafold.ebi.ac.uk
 
   #### Step-2 Preparation of protein structure for docking (Check protein Structure with Emboss Needle and then repair the structure with Modeller script)
   
