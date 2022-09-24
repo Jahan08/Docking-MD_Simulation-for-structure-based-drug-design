@@ -118,7 +118,7 @@ size_z = number of points in z dimension
 exhaustiveness = 8 (high is good)---save this as conf in the desired folder)
 
 ##### use terminal to run vina with following command
-"~/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina.exe"(path of vina executable) --config conf.txt(configuration file) --log log.txt(output file)
+"~/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina"(path of vina executable) --config conf.txt(configuration file) --log log.txt(output file)
 
 ##### Note - Copy conf.txt, vina.exe, ligand.pdbqt, protein.pdbqt files into a separate folder
 
